@@ -31,7 +31,7 @@ import { build } from "./node_modules/@vibbioinfocore/phyd3/dist/index.js";
 
 window.addEventListener('load', () => {
 	d3.xml("sample.xml", function(text) {
-    		const svg = build(makeCompatTable(phyloxml.parse(text)), {showNodesType:"all", textLength:2});
+    		const svg = build(makeCompatTable(phyloxml.parse(text)), {});
     		svg.attr("width", 1000);
     		document.querySelector("#phyd3-root").appendChild(svg.node());
 	});

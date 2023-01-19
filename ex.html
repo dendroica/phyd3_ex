@@ -11,7 +11,7 @@
     <script src="js/phyd3.js"></script>
     <script>
         function load() {
-            d3.xml("sample.xml", function(xml) {
+            d3.xml("test.xml", function(xml) {
                 var tree = phyd3.phyloxml.parse(xml);
                 phyd3.phylogram.build("#phyd3", tree, {});
             });
