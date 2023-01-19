@@ -12,6 +12,9 @@ This website was built with the instructions on the [GitHub repository](https://
 ### sample.xml  
 This is a very simple example input file  
 
+### test.xml  
+A more complex PhyloXML example based on the website documentation; only seems to work with the GitHub-based package
+
 ## Instructions
 1. The html files were placed in my copy of the GitHub repo, which is also where I installed the current node modules. So, notice the files have relative path references to my local files, which may need to be changed on your copy.  
 2. I ran a local web server to allow the XML files to be read; this can be done in a variety of ways, but I followed these [instructions](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)    
