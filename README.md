@@ -22,5 +22,5 @@ A more complex PhyloXML example based on the website documentation; only seems t
 It is possible you will need to install/cleanup references to the package dependencies.
 
 ## Other Websites Using PhyD3
-[evolklust](http://evolclustdb.org/)
+[evolklust](http://evolclustdb.org/)  
 [Phylogenetic Tree for sequences related to: P11653 - Methylmalonyl-CoA mutase](https://www.ebi.ac.uk/thornton-srv/m-csa/tree/filtered_kw/127)
